@@ -1,0 +1,1700 @@
+  @media screen and (max-width: 720px){
+
+    *{
+       -webkit-font-smoothing: antialiased;
+    }
+
+    /*button style*/
+    .blue_button,
+    .white_button{
+    width: 402px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -o-border-radius: 50px;
+      -ms-border-radius: 50px;
+  }
+
+
+.button_hover:hover{
+  line-height: 70px;
+}
+
+
+.white_button:hover{
+}
+
+.system_performance_button{
+  width: 402px;
+  font-size: 30px;
+  margin: 45px auto 85px;
+  height: 70px;
+  line-height: 62px;
+  border: 4px solid #18708b;
+  border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -o-border-radius: 50px;
+      -ms-border-radius: 50px;
+}
+
+.system_performance_button:hover{
+  line-height: 70px;
+}
+
+
+      .wrap{
+        width: 100%;
+        min-width: 320px;
+      }
+
+      .container,
+      .container_header{
+        width: 100%;
+        max-width: 720px;
+        overflow: hidden;
+        height: auto;
+      }
+
+      .header {
+        height: 100px;
+      }
+
+      .header-fixed{
+        display: none; 
+      }
+
+      .header_menu_navigation,
+      .header_right_block,
+      .main_top_banner_ninja{
+        display: none;
+      }
+
+
+      .header-sandwich{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+      }
+
+      .header-sandwich-img{
+        right: 30px;
+        position: absolute;
+      }
+
+      .header_menu_sandwich{
+        width: 420px;
+        position: absolute;
+        right: 0;
+        z-index: 6;  
+      }
+      
+      .header_menu_sandwich_block{
+        width: 420px;
+        background-color: #18708b;
+        position: absolute;
+        top: -70px;
+        right: -30px;
+        display: none;
+      }
+
+      .header-menu-sandwich_item:first-child{
+        margin-top: 92px;
+        position: relative;
+      }
+
+
+      .header-menu-sandwich_item{
+        height: 75px;
+        color: #FFF;
+        border-top: 1px solid #2e7d95;
+        font-family: 'Conv_ProximaNova-Regular';
+        font-size: 34px;
+        padding-left: 50px;
+        line-height: 75px;
+      }
+
+      .header-menu-sandwich_item_link{
+        color: inherit;
+        width: inherit;
+        display: block;
+      }
+
+      .header_menu_sandwich_close{
+        position: absolute;
+        right: 30px;
+        z-index: 4;
+        top: -70px;
+      }
+
+
+
+ 
+      .main_top_banner{
+        background: 
+            url("pics/main-baner-bg-mob.png") no-repeat;
+        height: 638px;
+      }
+
+      .main_top_banner_info{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        top: 0;
+        left: 0;
+        position: relative;
+        background-position: 50% 0px;
+      }
+
+      .main_top_banner_header1 {
+          margin-top: 0;
+          padding: 60px 0 15px;          
+          font-size: 88px;
+      }
+
+      .main_top_banner_header2{
+        font-size: 66px;
+      }
+
+      .main_top_banner_header3{
+        margin-bottom: 0;
+      }
+
+      .main_top_banner_text {
+        font-size: 30px;
+        width: 520px;
+        margin: 20px auto 0;
+        line-height: 36px;
+      }
+
+      .main_top_banner_button{
+        float: none;
+        margin: 35px auto;
+      }
+
+
+
+      .main_top_banner_link_wrapper{
+        float: none;
+        display: block;
+        width: 235px;
+        margin: 0 auto;
+      }
+
+
+      .main_top_banner_link {
+        font-size: 24px;
+      }
+
+
+.payment_info_title {
+    font-size: 46px;
+    width: 550px;
+}
+
+.sell_more-item {
+  display: block;
+  width: 540px;
+  padding: 50px 0 5px 230px;
+  background-size: 30%;
+}
+
+.sell_more_title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sell_more_text {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.how_it_works {
+  background-size: 100% 940px;
+}
+.how_it_works-title {
+  font-size: 46px;
+}
+.how_it_works_left-side {
+  float: none;
+  margin: 0 auto;
+  background-size: 70px 410px;
+  padding-left: 85px;
+}
+
+.how_it_works_left-item_title {
+  font-size: 30px;
+}
+.how_it_works_left-item_text {
+  font-size: 22px;
+  line-height: 24px;
+}
+.how_it_works_right-side {
+  display: none;
+}
+.how_it_works-button {
+    margin: 50px auto 50px;
+}
+.examples {
+  background-image: url(pics/payment-tools-mob.png);
+}
+.examples_header {
+  font-size: 46px;
+  margin: 100px auto 60px;
+}
+
+.examples-arr {
+  margin-left: 16px;
+}
+.examples_slider {
+  position: relative;
+}
+.examples_slider_info {
+    padding-left: 0;
+    padding-top: 260px;
+    width: 500px;
+    background-position: 50% 0;
+}
+
+.examples_slider_title {
+  font-size: 30px;
+  text-align: center;
+}
+.examples_slider_text {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.examples_arr_right {
+  float: none;
+  position: absolute;
+  left: 580px;
+  top: 440px;
+}
+
+.white_button {
+  margin: 60px auto 140px;
+}
+
+.quote-info {
+  margin: 230px 0 0 25px;
+}
+
+.quote-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.quote-ninja {
+    right: 290px;
+    top: -390px;
+    height: 121px;
+}
+.quote-ninja-title {
+    margin: 30px 150px 5px;
+    font-size: 30px;
+}
+.quote-info-text {
+  margin-left: 150px;
+  text-align: left;
+  font-size: 18px;
+  width: 130px;
+}
+.quotes_button {
+  margin: 485px auto 10px;
+}
+
+
+
+
+
+      .footer{
+      	margin-top: 35px;
+         background-image: url("pics/main-footer-bg-mob.png");
+      }
+
+      .footer-fix{
+          position: relative;
+      }
+
+      .footer_menu{
+        width: 90%;
+        margin: 0 auto;
+        padding: 124px 0 32px;      
+      }
+
+      .footer_menu_item {
+          width: 32%;
+      }
+
+      .footer_menu_item_link{
+        font-size: 24px;
+        line-height: 59px;
+      }
+
+      .contact_us_mail_types_item{
+        display: block;
+        height: 100px;
+        margin-left: 45px;
+      }
+
+      .contact_us_mail_types_item:first-child,
+      .contact_us_mail_types_item:nth-child(2),
+      .contact_us_mail_types_item:nth-child(3),
+      .contact_us_mail_types_item:last-child{
+        width: 90%;
+        padding-left: 0;
+        background-position: 10px 0;
+      }
+
+      .contact_us_mail_types_item_link,
+      .contact_us_mail_types_item_title{
+        text-align: left;
+        padding-left: 135px;
+        width: 545px;
+      }
+
+      .contact_form_wrapper{
+        width: 600px;
+        height: 680px;
+      }
+
+      .contact_form_box{
+        width: 100%;
+      }
+
+      .contact_form_item {
+        display: block;
+        margin-bottom: 40px;
+      }
+
+      .contact_form_item:last-child, 
+      .contact_form_item:nth-child(2){
+        margin-left: 0;
+      }
+
+      .contact_form_input{
+        width: 490px;
+        font-size: 30px;
+        margin: 0 auto;
+        display: block;
+        height: 60px;
+      }
+
+      .contact_us_banner{
+        -webkit-background-size: contain;
+             -o-background-size: contain;
+                background-size: contain;
+      }
+
+
+      .contact_us_banner_networks {
+          width: 45%;
+          margin: 0 auto;
+    	padding: 70px 0 60px;
+      }
+
+      .contact_us_banner_networks_item:nth-child(odd){
+        margin: 0 70px 45px 0;
+      }
+
+       .contact_us_banner_networks_item:nth-child(even){
+         margin-bottom: 45px;
+       }
+      
+      .contact_us_banner_networks_item{
+        margin-left: 0;
+        width: 105px;
+   		height: 105px;
+        background-image: url("picsmob/prite-networks.png");
+      }
+
+      .contact_us_banner_networks_item:nth-child(2) {
+		    background-position: -175px 1px;
+		}
+
+	.contact_us_banner_networks_item:nth-child(3) {
+	    background-position: 1px -150px;
+	}
+
+	.contact_us_banner_networks_item:last-child {
+	    background-position: -175px -150px;
+	}
+
+	.contact_us_banner_header {
+	    font-size: 88px;
+	    padding: 75px 0 58px
+	}
+
+	.contact_us_banner_title_title {
+	    font-size: 46px;
+	    width: 540px;
+	    margin: 0 auto;
+	}
+
+	.contact_us_mail_title {
+	    font-size: 46px;
+	}
+
+	.contact_us_mail_types_item_title {
+	    font-size: 34px;
+      margin-top: 60px
+	}
+
+	.contact_us_mail_types_item_link {
+    	font-size: 28px;
+	}
+
+	.contact_us_mail_types_item:first-child {
+    	background-image: url("picsmob/contact-icon1.png");
+	}
+
+	.contact_us_mail_types_item:nth-child(2) {
+	    background-image: url("picsmob/contact-icon2.png");
+	}
+
+	.contact_us_mail_types_item:nth-child(3) {
+	    background-image: url("picsmob/contact-icon3.png");
+	}
+
+	.contact_us_mail_types_item:last-child {
+    	background-image: url("picsmob/contact-icon4.png");
+	}
+
+	.contact_us_mail_types {
+		margin: 0 auto 60px;
+	}
+
+
+	.contact_form_title {
+	    font-size: 46px;
+	    margin: 27px auto 57px;
+	}
+
+
+
+
+
+
+      .features_top_banner{
+        width: 100%;
+        height: 708px;
+      }
+
+
+      .features_top_banner_title {
+          font-size: 64px;
+          line-height: 72px;
+          margin: 60px auto 0;
+          width: 560px;
+        }
+
+        .features_top_banner_button {
+           width: 402px;
+           font-size: 32px;
+           height: 70px;
+           line-height: 70px;
+            margin: 30px auto 55px;
+        }
+
+      .features_top_banner_ninja{
+      	background-image: url(picsmob/big-ninja.png);
+        width: 95%;
+        height: 350px;
+        -webkit-background-size: contain;
+             -o-background-size: contain;
+                background-size: contain;
+      }
+
+      .payment_methods_title {
+    	font-size: 46px;
+    	margin: 55px 0 30px 0;    
+    }
+
+    .payment_methods_item_title {
+    	font-size: 30px;
+    	margin-bottom: 10px;
+    }
+
+    .payment_methods_item_text {
+	    font-size: 22px;
+	    line-height: 24px;
+	    width: 340px;
+	}
+
+	.payment_methods_item_info {
+	    width: 386px;
+	}
+
+
+.tools_item_text_hidden{
+  display: none;
+}
+
+
+
+      .payment_methods_item{
+        width: 100%;
+        margin: 0 10px 40px 40px;
+      }
+
+      .payment_methods_item_img {
+        margin-right: 55px;
+      }
+
+      .payment_methods_item:nth-child(3), 
+      .payment_methods_item:nth-child(4){
+        margin: 0 0 40px 40px;
+      }
+
+      .other_payment_item {
+        width: 514px;
+        padding-left: 160px;
+        background-position: 30px 0;
+      }
+
+       .payment_methods_item_reccuring{
+    	width: 300px;
+    	line-height: 34px;
+    }
+
+      .other_payment_item_title{
+        margin-top: 0;
+      }
+
+      .other_payment_icon1 {
+        background-position: 30px -10px;
+         background-image: url("picsmob/other-method-icon1-mb.png");
+       }
+
+       .other_payment_icon2 {
+         background-image: url("picsmob/other-method-icon2-mb.png");
+       }
+
+       .other_payment_icon3 {
+         background-image: url("picsmob/other-method-icon3-mb.png");
+       }
+
+      .tools_item {
+        width: 100%;
+        padding: 0 110px 0 60px;
+        border-top: 2px solid #e1dbd5;
+        position: relative;
+      }
+
+      .tools_item_mob_arr_up{
+          transform: rotate(180deg);
+      }
+
+      .tools_item_mob_arr{
+           display: block;
+          right: 22px;
+          top: 35px;
+          position: absolute;
+      }
+
+      .tools_title {
+        font-size: 46px;
+      }
+
+      .tools_item_title {
+        font-size: 36px;
+        margin: 25px 0 25px;
+      }
+
+      .tools_item_text {
+        font-size: 22px;
+        margin-bottom: 18px;
+      }
+
+      .tools_item_icon{
+        display: none;
+      }
+
+      .tools_item_wrap:last-child {
+        margin: 0 0 0;
+      }
+
+      .tools_item_wrap{
+        margin-left: 0;
+      }
+
+      .security_img_ninja{
+        display: none;
+      }
+
+      .security_title {
+        font-size: 46px;
+        margin: 55px 0;
+      }
+
+
+      .security_info_item_title {
+        font-size: 30px;
+      }
+
+      .security_info_item_text {
+        line-height: 24px;
+        font-size: 22px
+      }
+
+      .security_item_icon1 {
+        background-image: url("picsmob/security-icon1-mob.png");
+        background-position: -8px -15px;
+      }
+
+      .security_item_icon2{
+        background-image: url("picsmob/security-icon2-mob.png");
+        background-position: -9px -21px;
+      }
+
+      .security_info_item_text, 
+      .security_info_item_title {
+          margin-left: 110px;
+          width: 380px;
+          margin-bottom: 10px;
+      }
+
+      .security_info{
+        position: relative;
+        top: 10px;
+        left: 70px;
+        padding-bottom: 60px;
+      }
+
+      .system_performance_title {
+        font-size: 46px;
+        width: 80%;
+        margin: 60px auto 20px;
+      }
+
+      .system_performance_info_text {
+        width: 555px;
+        margin: 25px auto 0;
+      }
+
+      .system_performance_info_text{
+        font-size: 22px;
+        line-height: 26px;
+      }
+
+
+      .payment_info_button{
+        border: 4px solid #18708B;
+      }
+
+      .payment_tools_button{
+          border: 4px solid #FFF;
+      }
+
+      .system_performance_img{
+        display: none;
+      }
+
+      .system_performance_info{
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .performance_questions_left_text_span{
+        display: block;
+        width: 310px;
+      }
+
+      .system_performance_questions{
+        width: 100%;
+         border: 2px solid #dfdad5;
+         -webkit-border-radius: 0;
+                 border-radius: 0;
+        margin: 20px 0 120px;
+      }
+
+      .system_performance_questions_inline {
+         float: left;
+      }
+
+      .system_performance_questions_vline{
+        display: none;
+      }
+
+      .performance_questions_right_button{
+        top: 167px;
+        left: 35%;
+      }
+
+      .system_performance_questions {
+        padding-bottom: 220px;
+        background-image: url(picsmob/info-picture.png);
+        background-repeat: no-repeat;
+        background-position: 66px 50px;
+      }
+
+      .performance_questions_left_img {
+          width: 125px;
+          margin: 45px 20px 25px 45px;
+      }
+
+      .performance_questions_left_title {
+        font-size: 34px;
+        margin-bottom: 20px;
+      }
+
+      .performance_questions_left_text {
+        font-size: 24px;
+        line-height: 26px;
+      }
+
+      .performance_questions_left_info{
+        width: 68%;
+        margin: 70px 0 0 220px;
+      }
+
+      .performance_questions_right_button {
+        top: 270px;
+        left: 117px;
+      }
+
+      .performance_questions_left_img{
+        display: none;
+      }
+
+
+
+      .pricing_top_banner_wrap{
+        text-align: center;
+      }
+
+      .pricing_top_banner_item:nth-child(odd){
+        width: 100%;
+      }
+
+      .pricing_top_banner_item:nth-child(even) {
+        width: 100%;
+      }
+
+      .pricing_top_banner_item {
+          margin: 40px 0 0 0px;
+      }
+
+      .pricing_top_banner_info {
+        margin: 60px auto;
+        width: 66%;
+        font-size: 22px;
+        line-height: 28px;
+      }
+
+      .pricing_top_banner_item_text {
+        width: 350px;
+        margin: 0 auto;
+      }
+
+
+      .pricing_succesful_item:nth-child(1),
+      .pricing_succesful_item:nth-child(2),
+      .pricing_succesful_item:nth-child(3),
+      .pricing_succesful_item:nth-child(4),
+      .pricing_succesful_item:nth-child(5){
+        width: 420px;
+        height: 120px;
+      }
+
+      .pricing_succesful_item_title {
+          margin-top: 0;
+           text-align: left;
+          padding-left: 160px;
+                font-size: 36px;
+          line-height: 42px;
+
+      }
+
+      .pricing_succesful_item:nth-child(1) {
+          background-position: 62px 0;
+      }
+
+      .pricing_succesful_item:nth-child(2) {
+          background-position: 55px 0;
+      }
+
+      .pricing_succesful_info_wrapper{
+        width: 100%
+      }
+
+      .pricing_succesful_info_item{
+        width: 80%;
+      }
+
+
+      .pricing_succesful_info_item{
+        margin-left: 80px;
+      }
+
+      .pricing_information{
+        border: 2px solid #dfdad5;
+        -webkit-border-radius: 0;
+                border-radius: 0;
+        margin: 0 auto 120px;
+        background-image: url(picsmob/info-picture.png);
+        background-repeat: no-repeat;
+        background-position: 66px 50px;
+        height: 234px;
+      }
+
+      .pricing_information_right_button{
+        top: 275px;
+        left: 115px;
+      }
+
+      .pricing_information_vline{
+        display: none;
+      }
+
+
+     .pricing_top_banner_title {
+    	font-size: 88px;
+    }
+
+    .pricing_top_banner_item_title {
+	    font-size: 28px;
+      margin-bottom: 11px;
+	   }
+
+  	.pricing_top_banner_item_text {
+  	    font-size: 22px;
+        line-height: 32px;
+  	}
+
+    .pricing_top_banner_item_price {
+      font-size: 72px;
+    }
+
+    .pricing_top_banner_item_price_span {
+      font-size: 22px;
+      width: 317px;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .pricing_top_banner{
+      background-image: url(picsmob/bg-pricing.png);
+    }
+
+    .pricing_top_banner_cards {
+      background: none;
+    }
+
+    .pricing_succesful_title{
+      font-size: 46px;
+    }
+
+    .pricing_succesful_item:first-child{
+      background-image: url(picsmob/pricing-sprite-icons.png);
+      background-position: -7px 0;
+    }
+
+    .pricing_succesful_item:nth-child(2){
+      background-image: url(picsmob/pricing-sprite-icons.png);
+      background-position: -7px -149px;
+    }
+
+    .pricing_succesful_item:nth-child(3){
+      background-image: url(picsmob/pricing-sprite-icons.png);
+      background-position: -6px -300px;
+    }
+
+    .pricing_succesful_item:nth-child(4){
+      background-image: url(picsmob/pricing-sprite-icons.png);
+      background-position: 0 -468px;
+    }
+
+    .pricing_succesful_item:last-child{
+      background-image: url(picsmob/pricing-sprite-icons.png);
+      background-position: -5px -628px;
+    }
+
+    .pricing_succesful_wrap {
+        margin: 50px 30px 50px 120px;
+    }
+
+    .pricing_succesful_info_item_title{
+      font-size: 36px;
+      margin-bottom: 25px;
+    }
+
+    .pricing_succesful_info_item_text{
+      font-size: 22px;
+      line-height: 32px;
+      width: 421px;
+    }
+
+    .pricing_information_left_title{
+      font-size: 34px;
+      margin-bottom: 25px;
+    }
+
+    .pricing_information_left_text{
+      font-size: 24px;
+    }
+
+    .pricing_information_left_img{
+      display: none;
+    }
+
+    .pricing_information_inline{
+      margin:70px 0 0 220px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+      .main-press-logo{
+        width: 100%;
+        margin: 32px auto 75px;
+      }
+
+      .main-press-logo-item{
+        display: block;
+      }
+
+      .main-press-logo-item:first-child,
+      .main-press-logo-item:last-child{
+        margin: 0 auto;
+        padding-top: 50px;
+        background-repeat: no-repeat;
+        background-position: 55px 65px;
+      }
+
+      .main-press-logo-item:first-child{
+        margin-bottom: 30px;
+        background-image: url(picsmob/press-white-ninja.png);
+      }
+
+       .main-press-logo-item:last-child{
+        background-image: url(picsmob/press-black-ninja.png);
+       }
+
+      .press-title{
+        font-size: 88px;
+      }
+
+      .press-title-text{
+        font-size: 46px;
+        width: 510px;
+        margin: 0 auto;
+      }
+
+      .press-title{
+        padding: 80px 0 45px;
+      }
+
+      .main-press-logo_img{
+        display: none;
+      }
+
+      .main-press-logo_text{
+        background-image: url(picsmob/press-download-mob.png);
+        background-repeat: no-repeat;
+        margin: 150px auto 0;
+        background-position: 0;
+        height: 32px;
+        width: 175px;
+      }
+
+      .main-press-logo_text_link{
+        font-size: 30px;
+        padding-left: 43px;
+        line-height: 33px;
+      }
+
+      .press_contact_us_title{
+        font-size: 46px;
+        width: 290px;
+        margin: 75px auto 40px;
+        background-position: 0 10px;
+        background-image: url("picsmob/press-letter-mob.png");
+      }
+
+      .press_contact_us_text {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .press_contact_us_link{
+        font-size: 28px;
+      }
+
+      .press_contact_us{
+        border-bottom: none;
+      }
+
+
+
+
+
+      .main-press-logo-item{
+        width: 74.2%;
+        height: 278px;
+      }
+
+      .other_payment_text {
+          font-size: 22px;
+          line-height: 24px;
+      }
+
+      .other_payment_item_title {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      .other_payment_title {
+         font-size: 46px;
+      }
+
+      .contact_us_banner_header {
+    font-family: 'Conv_arvo-regular';
+    font-size: 88px;
+
+}
+
+
+.get_started_form,
+.sign_in_form{
+    width: 600px;
+    margin: 45px auto 60px;
+    background: #ece5dd;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.sign_in_form{
+  padding-bottom: 150px;
+}
+
+.get_started_title,
+.sign_in_title{
+    font-family: 'Conv_arvo-regular';
+    font-size: 54px;
+    text-align: center;
+    padding: 60px 0 55px 40px;
+}
+
+.get_started_title_bold{
+      font-family: 'Conv_Arvo-Bold';
+}
+
+.get_started_input,
+.sign_in_input{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    background: #FFF;
+    margin-bottom: 40px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    border: none;
+    font-size: 30px;
+    font-family: 'Conv_ProximaNova-Regular';
+    padding-left: 15px;
+    position: relative;
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(214,213,211,1);
+    -moz-box-shadow: inset 1px 1px 1px 0px rgba(214,213,211,1);
+    box-shadow: inset 1px 1px 1px 0px rgba(214,213,211,1);
+}
+
+input[type="checkbox"]{
+ display: none;
+ }
+
+
+ input[type="checkbox"] + label{
+  margin-left: 50px;
+ }
+
+input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    background: url("pics/autorization-checkbox.png") no-repeat;
+    -webkit-background-size: 35px;
+    background-size: 35px;
+}
+
+input[type="checkbox"]:checked + label span {
+   background: url("pics/autorization-checkbox-chkd.png") no-repeat;
+   -webkit-background-size: 35px;
+   background-size: 35px;
+} 
+
+.checkbox-autorization{
+    position: relative;
+    top: -32px;
+    left: 103px;    
+    font-size: 30px;
+    color: #9ba0a7;
+    cursor: pointer;
+    font-family: 'Conv_ProximaNova-Regular';
+    -webkit-font-smoothing: antialiased;
+}
+
+.get_started_button,
+.sign_in_button{
+    width: 402px;
+    font-size: 32px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto 70px;
+    background-color: #146e89;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    display: block;
+    color: #fff;
+    font-family: 'Conv_proximanova-semibold';
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,85,110,1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(0,85,110,1);
+    box-shadow: 0px 2px 0px 0px rgba(0,85,110,1);
+}
+
+
+.get_started_demo_acc{
+    font-family: 'Conv_ProximaNova-Regular';
+    margin-left: 10px;
+    font-size: 30px;
+    color: #9ba0a7;
+    text-align: center;
+    padding: 0 0 85px 132px;
+    width: 440px;
+    line-height: 34px;
+}
+
+.get_started_demo_acc_link{
+  color: #146E89;
+  text-decoration: none;
+}
+
+.header_layout_line{
+  border-bottom: 2px solid #d0c9c1;
+}
+
+.get_started_input_password-eye{
+  background-image: url(picsmob/get_started-eye.png);
+  width: 57px;
+  height: 26px;
+  position: absolute;
+}
+
+.get_started_input_password{
+  position: absolute;
+  top: 530px;
+  left: 500px;
+  width: 57px;
+  height: 26px;
+}
+
+
+
+
+}
+
+/*
+@media screen and (min-width: 480px) and (max-width: 599px){
+
+  .header-sandwich-img {
+    right: 20px;
+  }
+
+  .main_top_banner_header2 {
+    font-size: 47px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+  .payment_info_title {
+      width: 90%;
+      font-size: 36px;
+      line-height: 42px;
+      margin: 0 auto;
+  }
+
+  .payment_info_text{
+    width: 90%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .payment_tools_header {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .customized_checkout_title {
+    font-size: 36px;
+    width: 393px;
+  }
+
+  .customized_checkout_info_text {
+    font-size: 16px;
+    line-height: 22px;
+    width: 340px;
+    margin: 0 auto;
+}
+
+  .footer_menu_item_link {
+    font-size: 20px;
+  }
+
+  .features_top_banner_title {
+    font-size: 50px;
+  }
+
+  .features_top_banner {
+    height: 613px;
+  }
+
+  .other_payment_item_title {
+    font-size: 25px;
+  }
+
+  .other_payment_text {
+    font-size: 20px;
+  }
+
+  .other_payment_item {
+    background-position: 20px 0;
+  }
+
+  .other_payment_item {
+    width: 453px;
+    padding-left: 150px;
+  }
+
+  .other_payment_icon1{
+     background-position: 20px -10px;
+  }
+
+  .other_payment_title {
+    font-size: 37px;
+  }
+
+  .tools_title {
+    font-size: 40px;
+    margin: 40px 0 40px;
+  }
+
+  .tools_item_title {
+    font-size: 30px;
+  }
+
+  .tools_item_text {
+    font-size: 20px;
+  }
+
+  .tools_item {
+    width: 105%;
+    background-position: 90% 30px;
+  }
+
+  .security_title {
+    font-size: 40px;
+  }
+
+  .security_info_item_title {
+    font-size: 26px;
+  }
+
+  .security_info_item_text, .security_info_item_title {
+    width: 290px;
+  }
+
+  .security_info_item_text {
+    line-height: 20px;
+    font-size: 16px;
+  }
+
+  .system_performance_title {
+    font-size: 40px;
+  }
+
+  .system_performance_button{
+    font-size: 32px;
+    line-height: 60px;
+    height: 60px;
+  }
+
+  .performance_questions_left_img {
+    width: 105px;
+    margin: 45px 20px 25px 30px;
+  }
+
+  .performance_questions_left_info {
+    width: 65%;
+  }
+
+  .performance_questions_left_title {
+    font-size: 30px;
+  }
+
+  .performance_questions_left_text {
+    font-size: 22px;
+  }
+
+  .performance_questions_right_button {
+    height: 60px;
+    line-height: 60px;
+  }
+
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 543px){
+  .features_top_banner_title {
+    font-size: 44px;
+  }
+
+  .features_top_banner {
+    height: 575px;
+  }
+}
+
+
+  @media screen and (min-width: 320px) and (max-width: 479px){
+
+    .header-sandwich-img {
+      right: 0;
+    }
+
+    .main_top_banner_info {
+      background-size: 360px 340px;
+    }
+
+    .main_top_banner_header1 {
+      font-size: 80px;
+    }
+
+    .main_top_banner_header2 {
+      font-size: 40px;
+    }
+
+    .main_top_banner_text {
+      font-size: 26px;
+      text-align: center;
+    }
+
+    .main_top_banner_button{
+      font-size: 20px;
+      height: 60px;
+      line-height: 60px;
+    }
+
+    .main_top_banner_link_wrapper {
+       width: 166px;
+    }
+
+    .main_top_banner_link {
+      font-size: 16px;
+    }
+
+    .payment_services_item_text{
+      font-size: 18px;
+    }
+    
+    .payment_info_title {
+      width: 89%;
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    .payment_info_text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    
+    .payment_info_button {
+      height: 55px;
+      font-size: 20px;
+      line-height: 55px;
+    }
+
+    .payment_tools_header {
+      width: 62%;
+      font-size: 26px;
+      line-height: 30px;
+    }
+
+    .payment_tools_item_title {
+      font-size: 16px;
+    }
+
+
+    .payment_tools_button,
+    .customized_checkout_info_button{
+      font-size: 20px;
+      height: 60px;
+      line-height: 60px;
+    }
+
+    .customized_checkout_title{
+      line-height: 30px;
+      font-size: 26px;
+      width: 86%;
+    }
+
+    .customized_checkout_info_text{
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .footer_menu_item_link{
+      font-size: 16px;
+      line-height: 45px;
+    }
+
+    .features_top_banner_button {
+        width: 63%;
+        font-size: 25px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .features_top_banner_title {
+      margin: 40px auto 0;
+    }
+
+    .payment_methods_title {
+        font-size: 30px;
+        margin: 50px 0 30px 0;
+    }
+
+    .payment_methods_item {
+        margin: 0 10px 30px 20px;
+    }
+
+    .payment_methods_item_img{
+      width: 70px;
+    }
+
+    .payment_methods_item_info {
+        width: 60%;
+    }
+
+    .payment_methods_item:nth-child(3), 
+    .payment_methods_item:nth-child(4) {
+        margin: 0 0 30px 20px;
+    }
+
+    .other_payment_item {
+      background-position: 0 0px;
+      background-size: 85px;
+      -webkit-background-size: 80px;
+           -o-background-size: 80px;
+    }
+
+    .other_payment_icon3{
+      -webkit-background-size: 70px;
+           -o-background-size: 70px;
+              background-size: 70px;
+    }
+
+    .other_payment_icon1 {
+      background-position: 0 0px;
+    }
+
+    .other_payment_item {
+      width: 291px;
+      padding-left: 100px;
+    }
+
+    .other_payment_title {
+      font-size: 40px;
+    }
+
+    .other_payment_item_title {
+      font-size: 24px;
+    }
+
+    .other_payment_text {
+      font-size: 22px;
+      line-height: 22px;
+    }
+
+    .tools_item {
+      padding: 0 50px 0 20px;
+      background-position: 95% 30px;
+    }
+
+    .tools_item_title {
+      font-size: 30px;
+    }
+
+    .security_info{
+      left: 20px;
+    }
+
+    .security_item_icon1{
+      background-image: url("pics/security-icon1.png");
+      background-position: 20px 0px;
+    }
+
+    .security_item_icon2{
+      background-image: url("pics/security-icon2.png");
+      background-position: 20px 0px;
+    }
+
+    .security_info_item_text, 
+    .security_info_item_title {
+      margin-left: 100px;
+    }
+
+    .security_info_item_title {
+      font-size: 24px;
+    }
+
+    .security_info_item_text, 
+    .security_info_item_title {
+      width: 210px;
+    }
+
+    .security_info_item_text {
+      line-height: 20px;
+      font-size: 16px;
+    }
+
+    .system_performance_title {
+      font-size: 36px;
+    }
+
+    .system_performance_info_text {
+      width: 90%;
+      padding: 0 30px;
+    }
+
+    .system_performance_info {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .performance_questions_left_img {
+      width: 85px;
+      margin: 45px 20px 25px 15px;
+    }
+
+    .performance_questions_left_info {
+      width: 60%;
+    }
+
+    .performance_questions_left_title {
+      font-size: 25px;
+      margin-top: 30px;
+    }
+
+    .performance_questions_left_text {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+
+   
+
+}
+
+
+
+
+  @media screen and (min-width: 630px) and (max-width: 695px){
+    .features_top_banner_title {
+      font-size: 57px;
+    }
+
+    .features_top_banner_ninja {
+       background-position: 0px 36px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 629px){
+    .features_top_banner_title {
+      font-size: 55px;
+    }
+
+    .features_top_banner_ninja {
+       background-position: 0px 50px;
+    }
+
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px){
+
+  .payment_services_item{
+    height: 150px;
+  }
+
+  .payment_services_item:last-child .payment_services_item_text {
+    left: 5%;
+  }
+
+  .payment_services_item:last-child .payment_services_item_text {
+    width: 102px;
+    top: 43px;
+  }
+
+  .payment_services_item:first-child {
+    margin-bottom: 30px;
+  }
+
+  .payment_services_item {
+        vertical-align: top;
+    }
+
+  .payment_all_tools {
+      width: 94%;
+    }
+
+
+  .payment_info_title {
+      font-size: 26px;
+      line-height: 30px;
+  }
+
+  .payment_tools_header {
+    width: 72%;
+  }
+
+  .features_top_banner_title {
+    font-size: 29px;
+    line-height: 34px;
+  }
+
+  .features_top_banner {
+    height: 384px;
+  }
+
+}
+
+
+@media screen and (max-width: 420px){
+  .header_menu_sandwich_block,
+  .header_menu_sandwich{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 429px){
+
+  .contact_us_banner_networks {
+      width: 85%;
+}
+
+
